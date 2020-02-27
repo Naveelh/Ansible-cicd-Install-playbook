@@ -1,0 +1,11 @@
+---
+- hosts: test12
+  become: yes
+  roles:
+  - jdk
+  - maven
+  - myjenkins
+  - nexus
+  - swap
+  - sonarqube_latest
+  - tomcat 
